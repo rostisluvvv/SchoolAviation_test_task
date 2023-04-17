@@ -7,7 +7,7 @@ from .views import EdcModuleViewSet
 
 router = routers.DefaultRouter()
 
-router.register('module', EdcModuleViewSet, basename='module')
+router.register('modules', EdcModuleViewSet, basename='module')
 
 
 urlpatterns = [
