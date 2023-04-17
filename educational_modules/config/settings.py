@@ -20,6 +20,8 @@ INSTALLED_APPS = [
 
     'rest_framework',
 
+    'edc_module'
+
 ]
 
 MIDDLEWARE = [
