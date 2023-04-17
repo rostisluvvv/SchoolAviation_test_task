@@ -7,7 +7,7 @@ SECRET_KEY = 'django-insecure-9+b&_+qhnzshx2mwv#u^$laatij+^110m5!-i2b*4&j*m#2y=t
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 INSTALLED_APPS = [
@@ -20,7 +20,7 @@ INSTALLED_APPS = [
 
     'rest_framework',
 
-    'edc_module',
+    'edc_module.apps.EdcModuleConfig',
 
 ]
 
